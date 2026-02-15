@@ -1,0 +1,108 @@
+body{
+    background-color: azure;
+    margin: 0.3%;
+    padding: 0.3%;
+
+}
+.navbar{
+    background-color: aliceblue;
+}
+
+
+.herosection{
+    background-color: thistle;
+    padding: 60px;
+}
+
+.hero-h{
+    font-family: serif;
+    font-size: 50px;
+    font-style: italic;
+}
+
+.hero-p{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.hero-btn{
+    margin-top: 20px;
+    padding: 8px 20px;
+    background-color: royalblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.hero-btn:hover{
+    background-color: darkblue;
+}
+
+.section-p{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+    color: #333;
+}
+
+section p{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    line-height: 1.8;
+    font-size: 17px;
+}
+
+.cards-container {
+  display: flex;
+  gap: 20px;           
+  flex-wrap: wrap;     
+  justify-content: center;
+  margin-top: 40px;
+}
+.contact-heading{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contact-form{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-form input{
+    width: 300px;
+    padding: 8px;
+}
+
+.contact-form button{
+    padding: 8px 20px;
+    background-color: purple;
+    color: white;
+    border: none;
+}
+.card-body{
+    background-color: thistle;
+    border-radius: 10%;
+}
+.card-title{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-weight: 200;
+ text-align: center;
+}
+.card-text{
+    font-family: monospace;
+    font-size: medium;
+    
+}
+.btn.btn-primary{
+background-color: rgb(7, 105, 72);
+}
+.btn.btn-primary:hover{
+    background-color: darkgreen;
+}
+.card-body:hover{
+    background-color: rgb(123, 56, 123);
+
+}
